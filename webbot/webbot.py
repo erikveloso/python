@@ -46,7 +46,8 @@ if __name__ == '__main__':
           '__file__ = ', __file__,
           '\nbase_dir = ', base_dir,
           '\ndriver_dir = ', driver_dir, sep='')
-    # Create a new instance of the Firefox driver
+          
+    # Create a new instance of the Chrome driver
     driver = webdriver.Chrome(driver_dir)
 
     # go to the google home page
